@@ -13,7 +13,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "kamruljpi\\sitesettings\\": "/"
+            "kamruljpi\\sitesettings\\": ""
         }
     },
     "extra": {
