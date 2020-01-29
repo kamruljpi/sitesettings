@@ -1,0 +1,21 @@
+{
+    "name": "maxpro/sitesettings",
+    "description": "All site settings",
+    "type": "composer",
+    "authors": [
+        {
+            "name": "MD Kamruzzaman",
+            "email": "kamruljpi@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "maxpro\\sitesettings\\SiteSettingsController"
+            ]
+        }
+    }
+}
