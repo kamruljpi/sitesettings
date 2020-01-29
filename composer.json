@@ -14,7 +14,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "kamruljpi\\sitesettings\\SiteSettingsController"
+                "kamruljpi\\sitesettings\\SiteSettingsServiceProvider"
             ]
         }
     }
