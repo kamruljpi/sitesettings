@@ -1,6 +1,6 @@
 <?php 
 
-namespace maxpro\sitesettings;
+namespace kamruljpi\sitesettings;
 
 use App\Http\Controllers\Controller;
 

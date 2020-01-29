@@ -1,5 +1,5 @@
 {
-    "name": "maxpro/sitesettings",
+    "name": "kamruljpi/sitesettings",
     "description": "All site settings",
     "type": "composer",
     "authors": [
@@ -14,7 +14,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "maxpro\\sitesettings\\SiteSettingsController"
+                "kamruljpi\\sitesettings\\SiteSettingsController"
             ]
         }
     }

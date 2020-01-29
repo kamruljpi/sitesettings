@@ -1,3 +1,3 @@
 <?php 
 
-Route::get('maxpro/sitesettings','maxpro\sitesettings\SiteSettingsController@index');
+Route::get('kamruljpi/sitesettings','kamruljpi\sitesettings\SiteSettingsController@index');

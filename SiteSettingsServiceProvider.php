@@ -1,6 +1,6 @@
 <?php
 
-namespace maxpro\sitesettings;
+namespace kamruljpi\sitesettings;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Route;
@@ -15,7 +15,7 @@ class SiteSettingsServiceProvider extends ServiceProvider
     public function register()
     {
         include __DIR__.'/web.php';
-        $this->app->make('maxpro\sitesettings\SiteSettingsController');
+        $this->app->make('kamruljpi\sitesettings\SiteSettingsController');
     }
 
     /**
