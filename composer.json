@@ -11,6 +11,11 @@
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {},
+    "autoload": {
+        "psr-4": {
+            "kamruljpi\\sitesettings\\": "/"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
