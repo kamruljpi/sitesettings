@@ -15,7 +15,7 @@ class SiteSettingsServiceProvider extends ServiceProvider
     public function register()
     {
         include __DIR__.'/web.php';
-        $this->app->make('kamruljpi\sitesettings\SiteSettingsController');
+        // $this->app->make('kamruljpi\sitesettings\SiteSettingsController');
     }
 
     /**
