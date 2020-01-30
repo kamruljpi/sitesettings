@@ -24,13 +24,13 @@ class SiteSettingsServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__.'/views', 'sitesettings');
+        $this->loadViewsFrom(__DIR__.'/../views', 'sitesettings');
         parent::boot();
     }
     public function map()
     {
         Route::prefix('kamruljpi')
              ->namespace($this->namespace)
-             ->group(__DIR__.'/routes/web.php');
+             ->group(__DIR__.'/../routes/web.php');
     }
 }
