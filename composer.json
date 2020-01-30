@@ -13,13 +13,13 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "kamruljpi\\sitesettings\\": ""
+            "kamruljpi\\sitesettings\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "kamruljpi\\sitesettings\\SiteSettingsServiceProvider"
+                "kamruljpi\\sitesettings\\providers\\SiteSettingsServiceProvider"
             ]
         }
     }
